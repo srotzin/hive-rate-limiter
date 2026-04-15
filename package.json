@@ -1,0 +1,15 @@
+{
+  "name": "hive-rate-limiter",
+  "version": "1.0.0",
+  "description": "Intelligent rate limiting — adaptive throttling, quota management, abuse prevention",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
